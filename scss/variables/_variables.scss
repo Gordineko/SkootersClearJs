@@ -1,0 +1,43 @@
+$night-blue-color: #323941;
+$blue-color: #009eff;
+$txt: "proxima_novasemibold";
+
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+::-webkit-scrollbar-horizontal {
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: #888;
+  opacity: 0;
+}
+body {
+  font-family: $txt;
+}
+li {
+  list-style: none;
+}
+.container {
+  padding: 0 15px;
+  max-width: 987px;
+  margin: 0 auto;
+}
+.container-max {
+  // padding: 0 15px;
+  max-width: 2565px;
+  margin: 0 auto;
+}
+.container-min {
+  padding: 0 15px;
+  max-width: 953px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
