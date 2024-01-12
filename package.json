@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "json-server": "^1.0.0-alpha.19",
     "sass": "^1.69.5"
   }
 }
